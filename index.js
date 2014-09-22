@@ -9,6 +9,10 @@ var Fruit = function() {};
 Fruit.prototype.edible = function() {
   return this._edible;
 };
+
+Fruit.prototype.setEdible = function(arg) {
+  this._edible = arg;
+}
 //the super class constructor
 //Fruit.prototype.constructor.apply(this, arguments)
 
